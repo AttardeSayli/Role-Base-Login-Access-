@@ -15,6 +15,22 @@
       "password": "apurva12",
       "role": "",
       "isActive": true
+    },
+    {
+      "id": "ankit15",
+      "name": "ankit mahajan",
+      "email": "ankit15@gmail.com",
+      "password": "ankit15",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "akshay52",
+      "name": "akshay mali",
+      "email": "akshay52@gmail.com",
+      "password": "akshay52",
+      "role": "",
+      "isActive": false
     }
   ]
 }

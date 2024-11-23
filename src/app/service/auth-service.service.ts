@@ -48,7 +48,7 @@ export class AuthServiceService {
   login(id:string , password:string):Observable<any>{
     return this.getUserById(id).pipe(
       map((res:any)=>{
-        if(res && res.password === password && res.isActive){
+        if(res && res.password === password ){//&& res.isActive
           sessionStorage.setItem('username', res.id);
           sessionStorage.setItem('userrole', res.role);
           this.updateLoginStatus(true)// Emit login Event
