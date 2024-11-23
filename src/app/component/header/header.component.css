@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 20px;
+  background-color: #f8f8f8; 
+  border-bottom: 2px solid #ddd; 
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  background-color: pink; 
+  padding: 8px 15px;
+  border-radius: 5px; 
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header a:hover {
+  background-color: #ff69b4; 
+  color: #fff; 
+}

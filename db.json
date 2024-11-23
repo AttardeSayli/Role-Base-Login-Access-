@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "admin",
+      "name": "sayli attarde",
+      "email": "sayli91@gmail.com",
+      "password": "sayli123",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "id": "apurva",
+      "name": "apurva behere",
+      "email": "apurva12@gmail.com",
+      "password": "apurva12",
+      "role": "",
+      "isActive": true
+    }
+  ]
+}

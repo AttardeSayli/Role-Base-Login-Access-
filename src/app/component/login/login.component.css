@@ -1,0 +1,83 @@
+mat-card {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+mat-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input[matInput] {
+  font-size: 16px;
+}
+
+mat-error {
+  font-size: 12px;
+  color: red;
+}
+
+button[mat-raised-button] {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+button[mat-raised-button][color="accent"] {
+  background-color: #ff4081;
+  border: none;
+}
+
+button[mat-raised-button][color="accent"]:hover {
+  background-color: #f50057;
+}
+
+a {
+  color: #3f51b5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+p span {
+  margin-right: 5px;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  mat-card {
+    width: 90%;
+    padding: 15px;
+  }
+
+  mat-card-title {
+    font-size: 20px;
+  }
+
+  button[mat-raised-button] {
+    font-size: 14px;
+  }
+}
